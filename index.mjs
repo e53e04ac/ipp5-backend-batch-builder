@@ -87,7 +87,7 @@ const constructor = ((options) => {
         makeApp: hold(async () => {
             const src = _options.appDirectory();
             const dest = _self.contextAppDirectory();
-            await src.resolve('main.mjs').copyFile(dest.resolve('main.mjs'));
+            await src.resolve('index.mjs').copyFile(dest.resolve('index.mjs'));
             await src.resolve('package-lock.json').copyFile(dest.resolve('package-lock.json'));
             await src.resolve('package.json').copyFile(dest.resolve('package.json'));
         }),
