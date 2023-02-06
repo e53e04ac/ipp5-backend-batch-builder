@@ -27,6 +27,6 @@
     "hold": "github:e53e04ac/hold"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.19"
   }
 }
