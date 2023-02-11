@@ -10,7 +10,7 @@ import { Ipp5BackendBatchBuilder } from 'e53e04ac/ipp5-backend-batch-builder';
 
 ~~~~~ mermaid
 graph RL;
-  A(["e53e04ac/ipp5-backend-batch-builder"]);
+  A(["package.json"]);
   subgraph "dependencies";
     B_0(["e53e04ac/azure-terraformer"]);
     B_1(["e53e04ac/event-emitter"]);
@@ -21,52 +21,62 @@ graph RL;
     B_4(["@types/node"]);
     B_5(["e53e04ac/file-entry"]);
   end;
-  A --reference--> B_0;
-  A --reference--> B_1;
-  A --reference--> B_2;
-  A --reference--> B_3;
-  A --reference--> B_4;
-  A --reference--> B_5;
-  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/83f43112910867460a36834e2ae4dcd5a62d68ed";
-  click B_1 "https://github.com/e53e04ac/event-emitter/tree/289e6320381f1be4d43177944eca0a12b665c4f7";
-  click B_2 "https://github.com/e53e04ac/file-entry-native/tree/4bbe53dfa25202c8fb2a5865ea3b35a7eab10b07";
-  click B_3 "https://github.com/e53e04ac/hold/tree/2143f5f52192ae4156ea0af80d41c87c55355e9c";
+  A ----> B_0;
+  A ----> B_1;
+  A ----> B_2;
+  A ----> B_3;
+  A ----> B_4;
+  A ----> B_5;
+  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/8d9ed1349321411331432f746aada8a2c4874046";
+  click B_1 "https://github.com/e53e04ac/event-emitter/tree/0c338d821268a5f0aaa42481216fd2e73c8734c9";
+  click B_2 "https://github.com/e53e04ac/file-entry-native/tree/874175e9fe9373cd4b0ce7d96ef744f2e41898b0";
+  click B_3 "https://github.com/e53e04ac/hold/tree/285d028e225a7e75747417c3ed6b1ca0d5f52f6a";
   click B_4 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_5 "https://github.com/e53e04ac/file-entry/tree/923119d07163b8f91b6138367a04760041225a06";
+  click B_5 "https://github.com/e53e04ac/file-entry/tree/54166105381939e5a1c4dee0af1f44705e5f44bc";
 ~~~~~
 
 ~~~~~ mermaid
-graph LR;
-  subgraph "e53e04ac/ipp5-backend-batch-builder"
-    C0("index.mjs");
-    C1("index.d.ts");
+graph RL;
+  A(["index.mjs"])
+  subgraph "azure-terraformer";
+    B_0_0(["AzureTerraformer"]);
   end;
-  subgraph "azure-terraformer"
-    D0(["AzureTerraformer"]);
+  subgraph "event-emitter";
+    B_1_0(["EventEmitter"]);
   end;
-  subgraph "event-emitter"
-    D1(["EventEmitter"]);
+  subgraph "file-entry-native";
+    B_2_0(["FileEntry"]);
   end;
-  subgraph "file-entry-native"
-    D2(["FileEntry"]);
+  subgraph "hold";
+    B_3_0(["hold"]);
+    B_3_1(["unwrap"]);
   end;
-  subgraph "hold"
-    D3(["hold"]);
-    D4(["unwrap"]);
-    D6(["Get"]);
-    D7(["ValueOrGet"]);
+  A ----> B_0_0;
+  A ----> B_1_0;
+  A ----> B_2_0;
+  A ----> B_3_0;
+  A ----> B_3_1;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  A(["index.d.ts"])
+  subgraph "azure-terraformer";
+    B_0_0(["AzureTerraformer"]);
   end;
-  subgraph "file-entry"
-    D5(["FileEntry"]);
+  subgraph "event-emitter";
+    B_1_0(["EventEmitter"]);
   end;
-  D0 --import--> C0;
-  D1 --import--> C0;
-  D2 --import--> C0;
-  D3 --import--> C0;
-  D4 --import--> C0;
-  D0 --import--> C1;
-  D1 --import--> C1;
-  D5 --import--> C1;
-  D6 --import--> C1;
-  D7 --import--> C1;
+  subgraph "file-entry";
+    B_2_0(["FileEntry"]);
+  end;
+  subgraph "hold";
+    B_3_0(["Get"]);
+    B_3_1(["ValueOrGet"]);
+  end;
+  A ----> B_0_0;
+  A ----> B_1_0;
+  A ----> B_2_0;
+  A ----> B_3_0;
+  A ----> B_3_1;
 ~~~~~
