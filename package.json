@@ -19,6 +19,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "azure-terraformer": "github:e53e04ac/azure-terraformer",
     "event-emitter": "github:e53e04ac/event-emitter",
