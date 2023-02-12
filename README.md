@@ -27,12 +27,12 @@ graph RL;
   A ----> B_3;
   A ----> B_4;
   A ----> B_5;
-  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/0894700dac012d6f5e31df50b30ae74e7089478a";
+  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/3e4ae44c15c9dfaffa0dd67a96c73693c02abd8e";
   click B_1 "https://github.com/e53e04ac/event-emitter/tree/58fd3772aa6977c80111d1af5425c38551c0da3e";
-  click B_2 "https://github.com/e53e04ac/file-entry-native/tree/0e0f87721b3753446d291c2ed8bd1755a851d321";
+  click B_2 "https://github.com/e53e04ac/file-entry-native/tree/6235b010d480ef2922c4759443e7bf906b55e12b";
   click B_3 "https://github.com/e53e04ac/hold/tree/5dd6f94b8ecd94f98219a7afae52320676380c27";
   click B_4 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_5 "https://github.com/e53e04ac/file-entry/tree/77cbd9d0db1e4a74fd5af363999096d9172bd83d";
+  click B_5 "https://github.com/e53e04ac/file-entry/tree/5e7bd3bb6438d7a2d7019e184729b9390342bb7d";
 ~~~~~
 
 ~~~~~ mermaid
