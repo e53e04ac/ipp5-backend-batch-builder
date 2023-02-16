@@ -27,7 +27,7 @@ graph RL;
   A ----> B_3;
   A ----> B_4;
   A ----> B_5;
-  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/14ffe4874a7df34767461a1e83418df00cd9bb40";
+  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/bb4e388111c5b89c0414aa84f861c52ce9d0ca4e";
   click B_1 "https://github.com/e53e04ac/event-emitter/tree/93b9f205a7be92bb920d2d4f13efa78be7b4ba5d";
   click B_2 "https://github.com/e53e04ac/file-entry-native/tree/d43936715ed35379b9739953facede178c870ef8";
   click B_3 "https://github.com/e53e04ac/hold/tree/b0b5ef032800af76c6e7ae27472dbf25a04a947d";
