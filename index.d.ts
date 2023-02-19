@@ -20,8 +20,6 @@ export declare namespace Ipp5BackendBatchBuilder {
         readonly contextAppDirectoryRelativePath: string;
     };
 
-    type EventSpecs = Record<never, never>;
-
     type Options = {
         readonly docker: ValueOrGet<string>;
         readonly appDirectory: ValueOrGet<FileEntry>;
@@ -35,6 +33,8 @@ export declare namespace Ipp5BackendBatchBuilder {
         readonly containerImageName: ValueOrGet<string>;
         readonly containerAppDirectoryPath: ValueOrGet<string>;
     };
+
+    type EventSpecs = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;
