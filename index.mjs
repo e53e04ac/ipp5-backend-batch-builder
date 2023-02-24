@@ -58,7 +58,7 @@ const constructor = ((options) => {
             return _options;
         }),
         scriptFile: hold(() => {
-            return FileEntry(new URL(import.meta.url).pathname);
+            return FileEntry.fromFileUrl(import.meta.url);
         }),
         scriptDirectory: hold(() => {
             return _self.scriptFile().parent();
