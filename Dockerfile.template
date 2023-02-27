@@ -16,7 +16,7 @@ COPY $${contextAppDirectoryRelativePath}package*.json $${containerAppDirectoryPa
 
 WORKDIR $${containerAppDirectoryPath}
 
-RUN npm install && find $${containerAppDirectoryPath}node_modules/ ! -user root | xargs chown root:root
+RUN npm install && chown -R root:root $${containerAppDirectoryPath}node_modules/
 
 COPY $${contextAppDirectoryRelativePath} $${containerAppDirectoryPath}
 
