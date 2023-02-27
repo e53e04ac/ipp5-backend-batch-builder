@@ -30,7 +30,7 @@
     "hold": "github:e53e04ac/hold"
   },
   "devDependencies": {
-    "@types/node": "^18.11.19",
+    "@types/node": "^18.14.2",
     "file-entry": "github:e53e04ac/file-entry"
   }
 }
