@@ -22,11 +22,11 @@ graph RL;
     B_5(["file-entry"]);
   end;
   subgraph "github";
-    C_0(["e53e04ac/azure-terraformer\n16560692233a91b14cc61b3efbf82150630ab55d"]);
-    C_1(["e53e04ac/event-emitter\nf8600a5c4de347aa3374c8a40ea315afdcde0d3b"]);
-    C_2(["e53e04ac/file-entry-native\nb94b164f9736e25ddadef6259b20fb58e9119c3a"]);
-    C_3(["e53e04ac/hold\ndb62bd33b4c93d0fb459b06c3b707d82924c6077"]);
-    C_5(["e53e04ac/file-entry\n860fe9c95d090bea1b0b44c885aabb3b44733b47"]);
+    C_0(["e53e04ac/azure-terraformer\nfedeeba769ef8e68213a742b67e2d43b6de32bc8"]);
+    C_1(["e53e04ac/event-emitter\n63f34d0c90cbecf2b424b38c0615e67fd7ba6594"]);
+    C_2(["e53e04ac/file-entry-native\n6abbcd40e32dcd6a941bf0400da1b5fcb2d15839"]);
+    C_3(["e53e04ac/hold\n050a2db413598fe87670b5b6bd34b804776a3657"]);
+    C_5(["e53e04ac/file-entry\n9379ee74366b97ba20ce7a5cd4f3107b68848365"]);
   end;
   subgraph "npmjs";
     C_4(["@types/node\n18.14.6"]);
@@ -43,12 +43,12 @@ graph RL;
   B_3 ----> C_3;
   B_4 ----> C_4;
   B_5 ----> C_5;
-  click C_0 "https://github.com/e53e04ac/azure-terraformer/tree/16560692233a91b14cc61b3efbf82150630ab55d";
-  click C_1 "https://github.com/e53e04ac/event-emitter/tree/f8600a5c4de347aa3374c8a40ea315afdcde0d3b";
-  click C_2 "https://github.com/e53e04ac/file-entry-native/tree/b94b164f9736e25ddadef6259b20fb58e9119c3a";
-  click C_3 "https://github.com/e53e04ac/hold/tree/db62bd33b4c93d0fb459b06c3b707d82924c6077";
+  click C_0 "https://github.com/e53e04ac/azure-terraformer/tree/fedeeba769ef8e68213a742b67e2d43b6de32bc8";
+  click C_1 "https://github.com/e53e04ac/event-emitter/tree/63f34d0c90cbecf2b424b38c0615e67fd7ba6594";
+  click C_2 "https://github.com/e53e04ac/file-entry-native/tree/6abbcd40e32dcd6a941bf0400da1b5fcb2d15839";
+  click C_3 "https://github.com/e53e04ac/hold/tree/050a2db413598fe87670b5b6bd34b804776a3657";
   click C_4 "https://www.npmjs.com/package/@types/node/v/18.14.6";
-  click C_5 "https://github.com/e53e04ac/file-entry/tree/860fe9c95d090bea1b0b44c885aabb3b44733b47";
+  click C_5 "https://github.com/e53e04ac/file-entry/tree/9379ee74366b97ba20ce7a5cd4f3107b68848365";
 ~~~~~
 
 ~~~~~ mermaid
